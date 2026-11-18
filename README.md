@@ -115,10 +115,10 @@ Features derived from past price and volume carry little to no reliable signal f
 2. **Thin single-stock market** with circuit limits (~10%) distorting returns.
 3. **Limited information:** No market-wide (NEPSE index, sector), dividend/bonus/right-share, news or macro data.
 4. **Class imbalance and threshold:** The 0.5 cutoff suppresses UP predictions; a training-based threshold or probability-based metrics are fairer.
-5. **Baseline and uncertainty:** no confidence interval reported for ROC-AUC.
+5. **Baseline and uncertainty:** No confidence interval reported for ROC-AUC.
 6. **Walk-forward evaluation** uses the fold's own top-15% cutoff and folds are small; treat as indicative.
-7. **No trading costs or backtest:** measures classification, not profitability.
-8. **Non-stationarity:** patterns from 2021-2025 may not hold in 2026.
+7. **No trading costs or backtest:** Measures classification, not profitability.
+8. **Non-stationarity:** Patterns from 2021-2025 may not hold in 2026.
 9. Logistic Regression was chosen for interpretability; more complex models are unlikely to help with this sample size (Random Forest confirmed this).
 
 ### Possible future work
