@@ -96,7 +96,6 @@ Annual return (start to end of year) and mean daily return can disagree: a year 
 Walk-forward top-15% precision vs UP base rate: 
 | Model | Walk-Forward Top-15% Precision | Performance Assessment |
 | :--- | :--- | :--- |
-| 
 | **Random Forest** | **44.83%** | **Ineffective** —  performs slightly below a 50% coin flip despite having the highest relative score |
 | **Logistic Regression** | **43.45%** | **Ineffective** — non-linear splits fail to generalize out-of-sample across changing market regimes|
 | **GridSearch-Tuned Model** | **42.76%** | **Ineffective** — hyperparameter tuning overfits historical noise and degrades forward precision |
